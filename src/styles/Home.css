@@ -1,0 +1,89 @@
+.home-container {
+    border: 1px solid rgb(163, 162, 162);
+    margin-top: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+}
+
+.input {
+    width: 97.5%;
+    margin-left: 15px;
+}
+
+.quill {
+    width: 99%;
+    padding: 5px;
+}
+
+.quill_btn {
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.preview {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notes_upper_container {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.notes_inner_container {
+    display: flex;
+    width: 98%;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.card_btn_wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.card_btn {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    margin: 10px;
+    width: 170px;
+} 
+
+.logout_btn {
+  width: 100px;
+  margin-top: 25px;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.card-buttons button {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.editor-input {
+    height: 90%;
+}
